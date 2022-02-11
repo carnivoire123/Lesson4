@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="greetings_text_size">36sp</dimen>
+    <dimen name="default_margin">@dimen/half_margin</dimen>
+
+    <dimen name="full_margin">16dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+
+
+    <dimen name="calc_button_height">56dp</dimen>
+    <dimen name="calc_button_width">56dp</dimen>
+    <dimen name="calc_button_corner_radius">8dp</dimen>
+
+</resources>

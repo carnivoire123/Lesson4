@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcButtonStyle">
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/calc_button_height</item>
+        <item name="android:backgroundTint">@color/calc_button_tint</item>
+    </style>
+    <!--
+            android:layout_margin="@dimen/default_margin"
+            android:layout_width="@dimen/calc_button_width"
+            android:layout_height="@dimen/calc_button_height"
+            android:backgroundTint="@color/calc_button_tint"
+
+            app:cornerRadius="@dimen/calc_button_corner_radius"
+    -->
+
+    <style name="CalcButtonSignStyle" parent="@style/CalcButtonStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">@dimen/calc_button_corner_radius</item>
+        <!--
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/calc_button_height</item>
+        <item name="android:backgroundTint">@color/calc_button_tint</item>
+        -->
+    </style>
+
+</resources>
